@@ -7,6 +7,8 @@
 //*******************************************************
 public class Account
 {
+ 
+  
   private double balance;
   private String name;
   private long acctNum;
@@ -53,23 +55,20 @@ public class Account
   //----------------------------------------------
   public void chargeFee()
   {
-   balance --;
-   balance --;
-   balance --;
-   balance --;
-   balance --;
-   balance --;
-   balance --;
-   balance --;
-   balance --;
-   balance --;
+   for (int i=10; i>0; i--) {
+       balance --;
+       
    
   }
+  
+}
   //----------------------------------------------
   // Changes the name on the account
   //----------------------------------------------
   public void changeName(String newName)
                          
   {
+      System.out.println("Type new account name");
+      
   }
 }
